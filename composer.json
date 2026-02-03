@@ -1,0 +1,63 @@
+{
+    "name": "larsklopstra/envelop",
+    "description": "Next generation emails for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "email",
+        "mail",
+        "templates",
+        "blade",
+        "components",
+        "atomic-css",
+        "tailwind",
+        "html-email",
+        "mailable"
+    ],
+    "homepage": "https://github.com/larsklopstra/envelop",
+    "autoload": {
+        "psr-4": {
+            "LarsKlopstra\\Envelop\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LarsKlopstra\\Envelop\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lars Klopstra",
+            "email": "lars@klopstra.me"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/larsklopstra/envelop/issues",
+        "source": "https://github.com/larsklopstra/envelop"
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0",
+        "phpunit/phpunit": "^11.0",
+        "laravel/pint": "^1.0"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/pint"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LarsKlopstra\\Envelop\\EnvelopServiceProvider"
+            ]
+        }
+    }
+}

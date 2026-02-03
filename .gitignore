@@ -1,0 +1,7 @@
+/vendor/
+/.phpunit.cache/
+/coverage/
+.phpunit.result.cache
+phpunit.xml
+.DS_Store
+.claude

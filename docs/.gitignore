@@ -1,0 +1,9 @@
+# Node dependencies
+node_modules/
+
+# VitePress build artifacts
+.vitepress/cache/
+.vitepress/dist/
+
+# Optional: Lock files (uncomment if you prefer not to commit)
+# package-lock.json
