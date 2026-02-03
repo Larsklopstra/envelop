@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  cleanUrls: true,
   title: "Envelop",
   description: "Next generation emails for Laravel",
   themeConfig: {
