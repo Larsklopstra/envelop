@@ -1,0 +1,27 @@
+:root {
+    --vp-font-family-base:
+        'Geist Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --vp-font-family-mono:
+        'Geist Mono Variable', ui-monospace, 'Menlo', 'Monaco', 'Consolas',
+        'Liberation Mono', 'Courier New', monospace;
+
+    --vp-c-brand-1: oklch(54.6% 0.245 262.881);
+    --vp-c-brand-2: oklch(62.3% 0.214 259.815);
+    --vp-c-brand-3: oklch(54.6% 0.245 262.881);
+    --vp-c-brand-soft: oklch(54.6% 0.245 262.881 0.12);
+
+    --vp-sidebar-bg-color: var(--vp-c-bg);
+}
+
+.dark {
+    --vp-c-brand-1: oklch(70.7% 0.165 254.624);
+    --vp-c-brand-2: oklch(70.7% 0.165 254.624);
+    --vp-c-brand-3: oklch(62.3% 0.214 259.815);
+    --vp-c-brand-soft: oklch(70.7% 0.165 254.624 0.16);
+}
+
+.VPSidebar {
+    border-right: 1px solid var(--vp-c-gutter);
+}
