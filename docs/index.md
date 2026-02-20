@@ -10,6 +10,9 @@ hero:
           text: Get Started
           link: /overview/introduction
         - theme: alt
+          text: View Examples
+          link: https://demo.envelop.email/
+        - theme: alt
           text: View on GitHub
           link: https://github.com/larsklopstra/envelop
 

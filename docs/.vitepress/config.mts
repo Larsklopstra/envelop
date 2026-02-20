@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+    import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -10,6 +10,10 @@ export default defineConfig({
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Docs', link: '/overview/introduction' },
+            {
+                text: 'Examples',
+                link: 'https://demo.envelop.email'
+            },
             {
                 text: 'Sponsor',
                 link: 'https://github.com/sponsors/Larsklopstra',
